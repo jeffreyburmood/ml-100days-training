@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label=<Age &le; 0.611<br/>entropy = 0.957<br/>samples = 320<br/>value = [199, 121]>, fillcolor="#e5813964"] ;
+1 [label=<EstSalary &le; 0.596<br/>entropy = 0.708<br/>samples = 228<br/>value = [184, 44]>, fillcolor="#e58139c2"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<Age &le; -0.167<br/>entropy = 0.256<br/>samples = 186<br/>value = [178, 8]>, fillcolor="#e58139f4"] ;
+1 -> 2 ;
+3 [label="(...)", fillcolor="#C0C0C0"] ;
+2 -> 3 ;
+4 [label="(...)", fillcolor="#C0C0C0"] ;
+2 -> 4 ;
+33 [label=<EstSalary &le; 1.842<br/>entropy = 0.592<br/>samples = 42<br/>value = [6, 36]>, fillcolor="#399de5d4"] ;
+1 -> 33 ;
+34 [label="(...)", fillcolor="#C0C0C0"] ;
+33 -> 34 ;
+51 [label="(...)", fillcolor="#C0C0C0"] ;
+33 -> 51 ;
+52 [label=<EstSalary &le; -0.824<br/>entropy = 0.642<br/>samples = 92<br/>value = [15, 77]>, fillcolor="#399de5cd"] ;
+0 -> 52 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+53 [label=<EstSalary &le; -1.374<br/>entropy = 0.196<br/>samples = 33<br/>value = [1, 32]>, fillcolor="#399de5f7"] ;
+52 -> 53 ;
+54 [label="(...)", fillcolor="#C0C0C0"] ;
+53 -> 54 ;
+59 [label="(...)", fillcolor="#C0C0C0"] ;
+53 -> 59 ;
+60 [label=<Age &le; 1.388<br/>entropy = 0.791<br/>samples = 59<br/>value = [14, 45]>, fillcolor="#399de5b0"] ;
+52 -> 60 ;
+61 [label="(...)", fillcolor="#C0C0C0"] ;
+60 -> 61 ;
+96 [label="(...)", fillcolor="#C0C0C0"] ;
+60 -> 96 ;
+}

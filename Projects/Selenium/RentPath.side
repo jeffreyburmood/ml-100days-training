@@ -1,0 +1,240 @@
+{
+  "id": "4c9414af-b707-4b63-9f8b-5171e98647e7",
+  "version": "2.0",
+  "name": "RentPath",
+  "url": "https://www.apartmentguide.com",
+  "tests": [{
+    "id": "1a0c1e3e-61b5-4a72-a36a-ff67ee2432f1",
+    "name": "Apartmentguide-Phoenix",
+    "commands": [{
+      "id": "5cffba64-b77a-457b-94f7-5ac7cf23dcae",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ca24c488-7b8c-44fd-aa6c-84d9506db818",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1572x938",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a00fded-8f86-460f-b1f4-40cc3fb6bc77",
+      "comment": "",
+      "command": "click",
+      "target": "name=locationSearch",
+      "targets": [
+        ["name=locationSearch", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='locationSearch']", "xpath:attributes"],
+        ["xpath=//div[@id='react-view']/div/div[2]/div/div[2]/div/div[2]/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9cb8e30-fbd9-4b05-ae80-54539de3c488",
+      "comment": "",
+      "command": "type",
+      "target": "name=locationSearch",
+      "targets": [
+        ["name=locationSearch", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='locationSearch']", "xpath:attributes"],
+        ["xpath=//div[@id='react-view']/div/div[2]/div/div[2]/div/div[2]/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Phoenix, AZ"
+    }, {
+      "id": "2b97c852-65eb-46ca-865e-d5d4e423cf77",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_7M6A6 use",
+      "targets": [
+        ["css=.\\_7M6A6 use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb90deb8-82a0-40d7-beb4-8b620a89a5eb",
+      "comment": "",
+      "command": "click",
+      "target": "name=locationSearch",
+      "targets": [
+        ["name=locationSearch", "name"],
+        ["css=.\\_1gv6u", "css:finder"],
+        ["xpath=//input[@name='locationSearch']", "xpath:attributes"],
+        ["xpath=//div[@id='react-view']/div/div[2]/div/div/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf6e23da-8274-42ec-a71c-5adb1577142b",
+      "comment": "",
+      "command": "type",
+      "target": "name=locationSearch",
+      "targets": [
+        ["name=locationSearch", "name"],
+        ["css=.\\_1gv6u", "css:finder"],
+        ["xpath=//input[@name='locationSearch']", "xpath:attributes"],
+        ["xpath=//div[@id='react-view']/div/div[2]/div/div/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Scottsdale"
+    }, {
+      "id": "ca9bd5b1-76eb-4513-98e9-755c0fe91b16",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_3HzQ3 b",
+      "targets": [
+        ["css=.\\_3HzQ3 b", "css:finder"],
+        ["xpath=//div[@id='react-view']/div/div[2]/div/div/div/div/div/div[2]/span/b", "xpath:idRelative"],
+        ["xpath=//b", "xpath:position"],
+        ["xpath=//b[contains(.,'Scottsdale')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ab1f10a-e8d1-4183-a8f9-2539134299b7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_2Uf5w",
+      "targets": [
+        ["css=.\\_2Uf5w", "css:finder"],
+        ["xpath=//div[@id='property-listings']/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "950dde76-64be-445a-b472-84479c3d0926",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.\\_2Uf5w",
+      "targets": [
+        ["css=.\\_2Uf5w", "css:finder"],
+        ["xpath=//div[@id='property-listings']/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bed5b2c-39f0-4c7e-8f25-d593d84912b0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.X4dyT use",
+      "targets": [
+        ["css=.X4dyT use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3260b6f-1f24-4643-ae81-e78755491b91",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_2veIk > span:nth-child(2)",
+      "targets": [
+        ["css=.\\_2veIk > span:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='react-view']/div/div[2]/div/div/div/div[2]/div/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'1 Bedroom')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f0ba59e-455c-40fd-b5ed-000ee928b26f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_3wS3W use",
+      "targets": [
+        ["css=.\\_3wS3W use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "fec8eaeb-3a0f-4960-b526-429046ec571e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_23Tt5:nth-child(3) .\\_1k2o9:nth-child(1) > .\\_3AUzv",
+      "targets": [
+        ["css=.\\_23Tt5:nth-child(3) .\\_1k2o9:nth-child(1) > .\\_3AUzv", "css:finder"],
+        ["xpath=//section[@id='region-modal']/div/div/form/div[3]/div/div/label", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40f13398-2ade-470a-b52f-c7f2e0cd0e98",
+      "comment": "",
+      "command": "click",
+      "target": "css=.aofxx > .\\_1k2o9:nth-child(1) > .\\_3AUzv",
+      "targets": [
+        ["css=.aofxx > .\\_1k2o9:nth-child(1) > .\\_3AUzv", "css:finder"],
+        ["xpath=//section[@id='region-modal']/div/div/form/div[5]/div/div/label", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Washer/Dryer In Unit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a027ca5d-d943-4342-b1d2-116650af4c39",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_7KUZQ > .\\_1Ik4e:nth-child(1)",
+      "targets": [
+        ["css=.\\_7KUZQ > .\\_1Ik4e:nth-child(1)", "css:finder"],
+        ["xpath=//section[@id='region-modal']/div/div/form/div[6]/div/div", "xpath:idRelative"],
+        ["xpath=//form/div[6]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40227d93-4bd2-4978-9d64-ae01f8add1c4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_7KUZQ > .\\_1Ik4e:nth-child(4)",
+      "targets": [
+        ["css=.\\_7KUZQ > .\\_1Ik4e:nth-child(4)", "css:finder"],
+        ["xpath=//section[@id='region-modal']/div/div/form/div[6]/div/div[4]", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aac923a5-33f6-423f-9023-78034eb6d007",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_7KUZQ > .\\_1Ik4e:nth-child(6)",
+      "targets": [
+        ["css=.\\_7KUZQ > .\\_1Ik4e:nth-child(6)", "css:finder"],
+        ["xpath=//section[@id='region-modal']/div/div/form/div[6]/div/div[6]", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "48b7a516-da74-4165-8cb1-705014f68ca2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_1B54w",
+      "targets": [
+        ["css=.\\_1B54w", "css:finder"],
+        ["xpath=//section[@id='region-modal']/div/div/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'See 203 Properties')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5f3b1a5-79c9-47a9-907e-a7a55d89e675",
+      "comment": "",
+      "command": "click",
+      "target": "css=#tile-17469 .image-gallery-slide:nth-child(1) .ZtsgD:nth-child(3)",
+      "targets": [
+        ["css=#tile-17469 .image-gallery-slide:nth-child(1) .ZtsgD:nth-child(3)", "css:finder"],
+        ["xpath=//img[@alt='Pool, Morningside']", "xpath:img"],
+        ["xpath=//div[@id='tile-17469']/div/div[2]/div/div/div/div/div/div/picture/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "920efc3a-7994-4ce3-b131-395d8785c01b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1a0c1e3e-61b5-4a72-a36a-ff67ee2432f1"]
+  }],
+  "urls": ["https://www.apartmentguide.com/"],
+  "plugins": []
+}
